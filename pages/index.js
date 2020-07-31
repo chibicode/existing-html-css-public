@@ -5,7 +5,7 @@ export default function Home() {
         __html: `
     <div class="foo">Hello World</div>
     <script>
-      document.querySelector('foo').style = 'color: red;'
+      document.querySelector('.foo').style = 'color: red;'
     </script>
   `
       }}
